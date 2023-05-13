@@ -35,5 +35,4 @@ class CustomUserAdmin(UserAdmin):
     )
 
 
-# admin.site.register(CustomUser)
 admin.site.unregister(Group)
